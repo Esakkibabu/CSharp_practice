@@ -29,6 +29,7 @@
 		char -> int -> long-> float-> double
 		 eg. int myint = 9;
 		     double = mydoub = myint;
+			 
 	Explicit Casting (manually)
 	
 		double-> float -> long-> int -> char

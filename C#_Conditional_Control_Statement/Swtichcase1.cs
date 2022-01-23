@@ -7,6 +7,7 @@ namespace MyApplication
     static void Main(string[] args)
     {
       int day = 2;
+	  Console.WriteLine("OUTPUT:");
       switch (day) 
       {
         case 1:
@@ -48,7 +49,6 @@ namespace MyApplication
     }
   }
 }
-
 /*
 OUTPUT:
 Tuesday

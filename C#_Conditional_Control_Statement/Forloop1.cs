@@ -6,13 +6,14 @@ namespace MyApplication
   {
     static void Main(string[] args)
     {
-	// for loop
-	Console.WriteLine("For Loop");
+	  Console.WriteLine("OUTPUT:");
+	  // for loop
+	  Console.WriteLine("For Loop");
       for (int i = 0; i < 5; i++) 
       {
         Console.WriteLine(i);
       }  
-	for (int i1 = 10; i1 <= 20; i1 = i1 + 2)
+	  for (int i1 = 10; i1 <= 20; i1 = i1 + 2)
       {
         Console.WriteLine(i1);
       } 
@@ -71,7 +72,6 @@ namespace MyApplication
     }
   }
 }
-
 /*
 OUTPUT:
 For Loop
@@ -135,5 +135,4 @@ Continue
 17
 18
 19
-
 */
