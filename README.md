@@ -68,4 +68,18 @@ C# is used to develop web applications, desktop applications, mobile application
 
 
 
-		
+		```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+::: mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+:::

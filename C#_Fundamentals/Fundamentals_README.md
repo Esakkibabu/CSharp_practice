@@ -37,6 +37,29 @@
 		 eg. double mydoub=9.78;
 			 int myint = (int)mydoub;  
 			 
+	Type Conversion using Parse()
+	
+	type conversion between non-compatible types like int and string, we use Parse().
+	We cannot use Parse() to convert a textual string like "test" to an int.
+	
+	
+	Type Conversion using Convert Class
+	
+In C#, we can use the Convert class to perform type conversion. The Convert class provides various methods to convert one type to another.
+
+			| Method	  |Description							 |
+			|-------------|--------------------------------------|	
+			| ToBoolean() |	converts a type to a Boolean value	 |	
+			| ToChar()	  |	converts a type to a char type		 |
+			| ToDouble()  | converts a type to a double type	 |
+			| ToInt16()	  | converts a type to a 16-bit int type |
+			| ToString()  | converts a type to a string			 |
+
+	Convert int to String and Double
+	
+	Convert.ToString(a) - converts an int type num to string
+    Convert.ToDouble(a) - converts num to the Double type
+	
 4. User Input
 		
 		Console.WriteLine("Enter your name :");     // Display
